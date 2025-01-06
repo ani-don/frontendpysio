@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+.doc:hover{
+    background-color: rgb(255, 226, 147);
+    color: aliceblue;
+    
+}
+.doc2:hover{
+    background-color: rgb(233, 136, 136);
+    color: aliceblue;
+scale: 1.1;
+transition: ease-in;
+}
+.doci{
+    color: aliceblue;
+}
+.butt:hover{
+    background-color: tomato;
+    color: aliceblue;
+    scale: 1.1;
+    transition: ease-in 0.2s;
+}
+.doc4:hover{
+    background-image: url(https://th.bing.com/th/id/R.fc54a0c249c97d7b04c6f72e041c2ed3?rik=42ogupOZWivt3A&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fD8F5OF3.jpg&ehk=1vvRdYNZ7qF1ccN4yeaaQ%2bjVgSbOesiSO2lTHrvxrao%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    scale: 1.1;
+    transition: ease-in 0.2s;
+}
+
+
+.blogs:hover{
+
+    scale: 1.1;
+    cursor: pointer;
+    transition: ease-in 1.2s;
+    
+    position: relative;
+
+}
+@media (max-width: 740px){
+    .active p{
+        @apply bg-red-300
+    }
+}
